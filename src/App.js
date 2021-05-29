@@ -76,6 +76,7 @@ function App() {
       <form className="form" onSubmit={Submit}>
         <input
           type="text"
+          placeholder="Enter a number"
           value={value}
           onChange={(e) => {
             setValue(e.target.value);
