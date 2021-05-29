@@ -1,6 +1,6 @@
 .App {
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  width: 100%;
   text-align: center;
   background-image: linear-gradient(grey, black);
   color: white;
@@ -8,5 +8,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+}
+
+.form {
+  margin-top: 10vh;
+}
+.button {
+  background-color: #4caf50;
+  margin-left: 10px;
+  padding: 3px;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+.result {
+  margin-top: 10vh;
+  background-color: #fff;
+  display: block;
+  border: #000;
+  width: 80vh;
+  word-wrap: break-word;
+}
+p {
+  color: #000;
+  text-align: left;
+  padding: 0 10px;
 }
